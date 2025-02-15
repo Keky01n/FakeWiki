@@ -1,0 +1,1819 @@
+.centered {
+  margin: 0 auto
+}
+
+.editsection {
+  font-size: small;
+  font-style: italic;
+  font-family: Serif
+}
+
+table {
+  background-color: inherit
+}
+
+.wp-admin .mw-redirect:after {
+  background-color: lightblue;
+  content: "→";
+  font-weight: bold;
+  margin-left: 0.2em
+}
+
+sub {
+  vertical-align: baseline;
+  font-size: 0.8em;
+  position: relative;
+  top: 0.4em
+}
+
+sup {
+  vertical-align: baseline;
+  font-size: 0.8em;
+  position: relative;
+  top: -0.4em
+}
+
+#editpage-copywarn {
+  margin: .8em 0;
+  padding: 0.2em;
+  border-bottom: thick solid gold;
+  background-color: #FFF8CF;
+  font-style: italic
+}
+
+.code {
+  font-family: monospace
+}
+
+.nagore tbody {
+  vertical-align: top
+}
+
+#siteNotice {
+  padding: 0.3em;
+  text-align: center;
+  margin-bottom: 0.5em
+}
+
+.mw-dismissable-notice-body {
+  margin: auto !important
+}
+
+.mw-dismissable-notice-close {
+  margin-top: 3px;
+  margin-right: 8px
+}
+
+.newpage {
+  color: black;
+  background-color: yellow
+}
+
+.noulinks a,.nounderlines a {
+  text-decoration: none
+}
+
+.minor {
+  font-weight: normal
+}
+
+.hilite {
+  color: black;
+  background-color: #fff6e6;
+  padding: 0.2em 0.5em;
+  border: thin dotted silver
+}
+
+.archive {
+  opacity: 0.7;
+  background-color: #fffaf0;
+  padding: 0.2em 0.5em;
+  border: thin dotted silver
+}
+
+#mainpage-toc h3 {
+  font-size: 110%;
+  margin-bottom: 0
+}
+
+#mainpage-toc p {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.custom-toolbar {
+  clear: both;
+  margin-bottom: 0.2em;
+  line-height: 1.9em
+}
+
+.custom-toolbar select {
+  margin-right: 0.5em
+}
+
+.buttonlinks a {
+  color: #333333;
+  background-color: #E0EEF7;
+  background: linear-gradient(to bottom,#F4F9FB,#E0EEF7);
+  font-size: 0.9em;
+  text-decoration: none;
+  border: 1px solid #e0e0e0;
+  padding: 0.1em
+}
+
+.buttonlinks a:hover,.buttonlinks a:active {
+  color: #000000;
+  border-color: #c0c0c0
+}
+
+#navbox ul li {
+  list-style: none;
+  margin-left: -1em
+}
+
+#navtree ul {
+  border-left: thin dotted gray;
+  padding-left: .5em
+}
+
+#stubmessage {
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
+  width: 75%;
+  margin: 1em auto
+}
+
+.thumbcaption,.gallerytext {
+  text-align: center
+}
+
+#externMessage {
+  text-align: center;
+  color: black;
+  background-color: #FFEE99;
+  border: thin solid #FFA500;
+  padding: .4em;
+  margin-top: .2em
+}
+
+.working {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/32/Loader3.gif) right center no-repeat
+}
+
+.loading:before {
+  content: url(//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vector_Loading_fallback.gif/16px-Vector_Loading_fallback.gif)
+}
+
+.done:before {
+  content: url(//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/16px-Yes_check.svg.png)
+}
+
+.not-done:before,.fail:before {
+  content: url(//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Red_x.svg/16px-Red_x.svg.png)
+}
+
+.plainlinksneverexpand {
+  background: none ! important;
+  padding: 0 ! important
+}
+
+.plainlinksneverexpand .urlexpansion {
+  display: none ! important
+}
+
+.plainlinksneverexpand a {
+  background: none !important;
+  padding: 0 !important
+}
+
+.plainlinksneverexpand a.external.text:after {
+  display: none !important
+}
+
+.plainlinksneverexpand a.external.autonumber:after {
+  display: none !important
+}
+
+.IPA {
+  font-family: Chrysanthi Unicode,Doulos SIL,Gentium,GentiumAlt,Code2000,TITUS Cyberbit Basic,DejaVu Sans,Bitstream Vera Sans,Bitstream Cyberbit,Arial Unicode MS,Lucida Sans Unicode,Hiragino Kaku Gothic Pro,Matrix Unicode;
+  font-family : inherit
+}
+
+.Unicode {
+  font-family: TITUS Cyberbit Basic,Code2000,Doulos SIL,Chrysanthi Unicode,Bitstream Cyberbit,Bitstream CyberBase,Bitstream Vera,Thryomanes,Gentium,GentiumAlt,Visual Geez Unicode,Lucida Grande,Arial Unicode MS,Microsoft Sans Serif,Lucida Sans Unicode;
+  font-family : inherit
+}
+
+.polytonic {
+  font-family: Athena,Gentium,Palatino Linotype,Arial Unicode MS,Lucida Sans Unicode,Lucida Grande,Code2000;
+  font-family : inherit
+}
+
+.infobox {
+  border: 1px solid #aaaaaa;
+  background-color: #f9f9f9;
+  color: black;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.2em;
+  float: right;
+  clear: right
+}
+
+.infobox-lua {
+  width: 22em;
+  text-align: left;
+  font-size: 88%;
+  line-height: 1.5em;
+  border-spacing: 5px
+}
+
+.infobox td,.infobox th {
+  vertical-align: top
+}
+
+.infobox caption {
+  font-size: larger;
+  margin-left: inherit
+}
+
+.infobox.bordered {
+  border-collapse: collapse
+}
+
+.infobox.bordered td,.infobox.bordered th {
+  border: 1px solid #aaaaaa
+}
+
+.infobox.bordered .borderless td,.infobox.bordered .borderless th {
+  border: 0
+}
+
+.infobox.sisterproject {
+  width: 20em;
+  font-size: 90%
+}
+
+.infobox.bordered .mergedtoprow td,.infobox.bordered .mergedtoprow th {
+  border: 0;
+  border-top: 1px solid #aaaaaa;
+  border-right: 1px solid #aaaaaa
+}
+
+.infobox.bordered .mergedrow td,.infobox.bordered .mergedrow th {
+  border: 0;
+  border-right: 1px solid #aaaaaa
+}
+
+.infobox.geography {
+  border: 1px solid #ccd2d9;
+  text-align: left;
+  border-collapse: collapse;
+  line-height: 1.2em;
+  font-size: 90%
+}
+
+.infobox.geography td,.infobox.geography th {
+  border-top: solid 1px #ccd2d9;
+  padding: 0.4em 0.2em 0.4em 0.8em
+}
+
+.infobox.geography .mergedtoprow td,.infobox.geography .mergedtoprow th {
+  border-top: solid 1px #ccd2d9;
+  padding: 0.4em 0.2em 0.2em 0.8em
+}
+
+.infobox.geography .mergedrow td,.infobox.geography .mergedrow th {
+  border: 0;
+  padding: 0 0.2em 0.2em 0.8em
+}
+
+.infobox.geography .mergedbottomrow td,.infobox.geography .mergedbottomrow th {
+  border-top: 0;
+  border-bottom: solid 1px #ccd2d9;
+  padding: 0 0.2em 0.4em 0.8em
+}
+
+.infobox.geography .maptable td,.infobox.geography .maptable th {
+  border: 0;
+  padding: 0
+}
+
+.toccolours caption {
+  font-weight: bold
+}
+
+.toccolours .hrow th {
+  background-color: #e0e6e9
+}
+
+.odd {
+  background-color: inherit
+}
+
+.even {
+  background-color: #eceff3
+}
+
+.wikitable,.prettytable {
+  margin: 1em 1em 1em 0;
+  background: #f9f9f9;
+  border: 1px #aaaaaa solid;
+  border-collapse: collapse
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td {
+  border: 1px #aaaaaa solid;
+  padding: 0.2em
+}
+
+.wikitable th,.prettytable th {
+  background: #f2f2f2;
+  text-align: center
+}
+
+.wikitable caption,.prettytable caption {
+  margin-left: inherit;
+  margin-right: inherit;
+  font-weight: bold
+}
+
+.wikitable table th,.prettytable table th,.wikitable table td,.prettytable table td {
+  border: none
+}
+
+.wikitable.centered {
+  margin: 1em auto
+}
+
+.col-1-left td:nth-child(1),.col-2-left td:nth-child(2),.col-3-left td:nth-child(3),.col-4-left td:nth-child(4),.col-5-left td:nth-child(5),.col-6-left td:nth-child(6),.col-7-left td:nth-child(7),.col-8-left td:nth-child(8),.col-9-left td:nth-child(9),.col-10-left td:nth-child(10),.col-11-left td:nth-child(11),.col-12-left td:nth-child(12),.col-13-left td:nth-child(13),.col-14-left td:nth-child(14),.col-15-left td:nth-child(15),.col-16-left td:nth-child(16),.col-17-left td:nth-child(17),.col-18-left td:nth-child(18),.col-19-left td:nth-child(19),.col-20-left td:nth-child(20),.col-21-left td:nth-child(21),.col-22-left td:nth-child(22),.col-23-left td:nth-child(23),.col-24-left td:nth-child(24),.col-25-left td:nth-child(25) {
+  text-align: left
+}
+
+.col-1-center td:nth-child(1),.col-2-center td:nth-child(2),.col-3-center td:nth-child(3),.col-4-center td:nth-child(4),.col-5-center td:nth-child(5),.col-6-center td:nth-child(6),.col-7-center td:nth-child(7),.col-8-center td:nth-child(8),.col-9-center td:nth-child(9),.col-10-center td:nth-child(10),.col-11-center td:nth-child(11),.col-12-center td:nth-child(12),.col-13-center td:nth-child(13),.col-14-center td:nth-child(14),.col-15-center td:nth-child(15),.col-16-center td:nth-child(16),.col-17-center td:nth-child(17),.col-18-center td:nth-child(18),.col-19-center td:nth-child(19),.col-20-center td:nth-child(20),.col-21-center td:nth-child(21),.col-22-center td:nth-child(22),.col-23-center td:nth-child(23),.col-24-center td:nth-child(24),.col-25-center td:nth-child(25) {
+  text-align: center
+}
+
+.col-1-right td:nth-child(1),.col-2-right td:nth-child(2),.col-3-right td:nth-child(3),.col-4-right td:nth-child(4),.col-5-right td:nth-child(5),.col-6-right td:nth-child(6),.col-7-right td:nth-child(7),.col-8-right td:nth-child(8),.col-9-right td:nth-child(9),.col-10-right td:nth-child(10),.col-11-right td:nth-child(11),.col-12-right td:nth-child(12),.col-13-right td:nth-child(13),.col-14-right td:nth-child(14),.col-15-right td:nth-child(15),.col-16-right td:nth-child(16),.col-17-right td:nth-child(17),.col-18-right td:nth-child(18),.col-19-right td:nth-child(19),.col-20-right td:nth-child(20),.col-21-right td:nth-child(21),.col-22-right td:nth-child(22),.col-23-right td:nth-child(23),.col-24-right td:nth-child(24),.col-25-right td:nth-child(25) {
+  text-align: right
+}
+
+.wikitable.center {
+  width: auto
+}
+
+.wikitable2 {
+  margin: 1em 1em 1em 0;
+  background: #f9f9f9;
+  border: 1px #aaaaaa solid;
+  border-collapse: collapse
+}
+
+.wikitable2 th,.wikitable2 td {
+  border: 1px #aaaaaa solid;
+  padding: 0.2em
+}
+
+.wikitable2 th {
+  background: #f2f2f2;
+  text-align: center
+}
+
+.wikitable2 caption {
+  margin-left: inherit;
+  margin-right: inherit;
+  font-weight: bold
+}
+
+.wikitable-with-numbers th,.wikitable-with-numbers td {
+  text-align: right
+}
+
+#coordinates {
+  font-size: 80%
+}
+
+#coordinates,.coordinates {
+  margin: 0;
+  padding: 0
+}
+
+.geo-google {
+  font-family: serif;
+  font-weight: bold;
+  line-height: 1em
+}
+
+.geo-default {
+  display: inline
+}
+
+.geo-nondefault,.geo-multi-punct {
+  display: none
+}
+
+.geo-geo-dec .geo-dec,.geo-geo-dms .geo-dms {
+  display: inline
+}
+
+.geo-geo-dec .geo-dms,.geo-geo-dms .geo-dec {
+  display: none
+}
+
+.geo-lat,.geo-lon {
+  white-space: nowrap
+}
+
+.references {
+  font-size: 85%
+}
+
+.references-2column {
+  -moz-column-count: 2;
+  column-count: 2
+}
+
+div.reflist div.mw-references-wrap ol.references {
+  list-style-type: inherit
+}
+
+.same-bg {
+  background: none
+}
+
+.references > :target,.reference:target,cite:target {
+  background-color: #DEF
+}
+
+@counter-style custom-backlink {
+  system: alphabetic;
+  symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ж' 'з' 'и' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ю' 'я'
+}
+
+span[rel="mw:referencedBy"] {
+  counter-reset: mw-ref-linkback 0
+}
+
+span[rel="mw:referencedBy"] > a::before {
+  font-weight: bold;
+  font-style: italic;
+  content: counter(mw-ref-linkback,custom-backlink)
+}
+
+.mw-ref > a[data-mw-group=lower-greek]::after {
+  content: '[' counter(mw-Ref,lower-greek) ']'
+}
+
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+  content: '[' counter(mw-Ref,upper-alpha) ']'
+}
+
+.mw-ref > a[data-mw-group=upper-roman]::after {
+  content: '[' counter(mw-Ref,upper-roman) ']'
+}
+
+.mw-ref > a[data-mw-group=lower-roman]::after {
+  content: '[' counter(mw-Ref,lower-roman) ']'
+}
+
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+  content: '[' counter(mw-Ref,lower-alpha) ']'
+}
+
+.notice {
+  margin: 1em;
+  padding: 0.2em
+}
+
+#disambig {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
+}
+
+#spoiler {
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd
+}
+
+.mw-plusminus-pos {
+  color: #006400
+}
+
+.mw-plusminus-neg {
+  color: #8B0000
+}
+
+.messagebox {
+  border: 1px solid #aaaaaa;
+  background-color: #f9f9f9;
+  width: 80%;
+  margin: 0 auto 1em auto;
+  padding: .2em
+}
+
+.messagebox.merge {
+  border: 1px solid #c0b8cc;
+  background-color: #f0e5ff;
+  text-align: center
+}
+
+.messagebox.cleanup {
+  border: 1px solid #9f9fff;
+  background-color: #efefff;
+  text-align: center
+}
+
+.messagebox.standard-talk {
+  border: 1px solid #c0c090;
+  background-color: #f8eaba;
+  margin: 4px auto
+}
+
+.mbox-text {
+  border: none;
+  padding: 0.25em 0.9em;
+  width: 100%
+}
+
+.mbox-image {
+  border: none;
+  padding: 2px 0 2px 0.9em;
+  text-align: center
+}
+
+.mbox-imageright {
+  border: none;
+  padding: 2px 0.9em 2px 0;
+  text-align: center
+}
+
+.mbox-empty-cell {
+  border: none;
+  padding: 0px;
+  width: 1px
+}
+
+.ambox {
+  margin: 0px 10%;
+  border: 1px solid #aaa;
+  border-left: 10px solid #1e90ff;
+  background: #fbfbfb
+}
+
+.ambox + .ambox {
+  margin-top: -1px
+}
+
+.ambox .mbox-text {
+  padding: 0.25em 0.5em
+}
+
+.ambox .mbox-image {
+  padding: 2px 0 2px 0.5em
+}
+
+.ambox .mbox-imageright {
+  padding: 2px 0.5em 2px 0
+}
+
+.ambox-notice {
+  border-left: 10px solid #1e90ff
+}
+
+.ambox-delete,.ambox-serious {
+  border-left: 10px solid #b22222
+}
+
+.ambox-content {
+  border-left: 10px solid #f28500
+}
+
+.ambox-style {
+  border-left: 10px solid #f4c430
+}
+
+.ambox-move,.ambox-merge {
+  border-left: 10px solid #9932cc
+}
+
+.ambox-stub {
+  border-left: 10px solid #c0c090
+}
+
+.ambox-protection {
+  border-left: 10px solid #bba
+}
+
+.imbox {
+  margin: 4px 10%;
+  border-collapse: collapse;
+  border: 3px solid #1e90ff;
+  background: #fbfbfb
+}
+
+.imbox .mbox-text .imbox {
+  margin: 0 -0.5em;
+  display: block
+}
+
+.mbox-inside .imbox {
+  margin: 4px
+}
+
+.imbox-notice {
+  border: 3px solid #1e90ff
+}
+
+.imbox-delete,.imbox-serious {
+  border: 3px solid #b22222
+}
+
+.imbox-content {
+  border: 3px solid #f28500
+}
+
+.imbox-style {
+  border: 3px solid #f4c430
+}
+
+.imbox-move,.imbox-merge {
+  border: 3px solid #9932cc
+}
+
+.imbox-protection {
+  border: 3px solid #bba
+}
+
+.imbox-license {
+  border: 3px solid #88a;
+  background: #f7f8ff
+}
+
+.imbox-featured {
+  border: 3px solid #cba135
+}
+
+.cmbox {
+  margin: 3px 10%;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+  background: #DFE8FF
+}
+
+.cmbox-notice {
+  background: #D8E8FF
+}
+
+.cmbox-delete,.cmbox-serious {
+  background: #FFDBDB
+}
+
+.cmbox-content {
+  background: #FFE7CE
+}
+
+.cmbox-style {
+  background: #FFF9DB
+}
+
+.cmbox-move,.cmbox-merge {
+  background: #E4D8FF
+}
+
+.cmbox-protection {
+  background: #EFEFE1
+}
+
+.tmbox {
+  margin: 4px 10%;
+  border-collapse: collapse;
+  border: 1px solid #c0c090;
+  background: #f8eaba
+}
+
+.mediawiki .mbox-inside .tmbox {
+  margin: 2px 0;
+  width: 100%
+}
+
+.mbox-inside .tmbox.mbox-small {
+  line-height: 1.5em;
+  font-size: 100%
+}
+
+.tmbox-delete,.tmbox-serious {
+  border: 2px solid #b22222
+}
+
+.tmbox-content {
+  border: 2px solid #f28500
+}
+
+.tmbox-style {
+  border: 2px solid #f4c430
+}
+
+.tmbox-move,.tmbox-merge {
+  border: 2px solid #9932cc
+}
+
+.tmbox-protection,.tmbox-notice {
+  border: 1px solid #c0c090
+}
+
+.ombox {
+  margin: 4px 10%;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+  background: #f9f9f9
+}
+
+.ombox-notice {
+  border: 1px solid #aaa
+}
+
+.ombox-delete,.ombox-serious {
+  border: 2px solid #b22222
+}
+
+.ombox-content {
+  border: 1px solid #f28500
+}
+
+.ombox-style {
+  border: 1px solid #f4c430
+}
+
+.ombox-move,.ombox-merge {
+  border: 1px solid #9932cc
+}
+
+.ombox-protection {
+  border: 2px solid #bba
+}
+
+.fmbox {
+  clear: both;
+  margin: 0.2em 0;
+  width: 100%;
+  border: 1px solid #aaa;
+  background: #f9f9f9
+}
+
+.fmbox-system {
+  background: #f9f9f9
+}
+
+.fmbox-warning {
+  border: 1px solid #bb7070;
+  background: #ffdbdb
+}
+
+.fmbox-editnotice {
+  background: transparent
+}
+
+.FA {
+  list-style-image: url(//upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png)
+}
+
+.GA {
+  list-style-image: url(//upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png)
+}
+
+.hilited {
+  color: white;
+  background-color: #000080
+}
+
+.nowraplinks a {
+  white-space: nowrap
+}
+
+.user-block {
+  padding: 5px;
+  border: 1px solid #A9A9A9;
+  background-color: #FFEFD5
+}
+
+.template-documentation {
+  clear: both;
+  margin: 1em 0 0 0;
+  border: 1px solid #aaa;
+  background-color: #eaf1f4;
+  padding: 5px
+}
+
+.thumbinner {
+  min-width: 100px
+}
+
+.simplelist ul,.simplelist li {
+  margin: 0;
+  padding: 0
+}
+
+.simplelist li {
+  display: inline;
+  white-space: nowrap
+}
+
+.simplelist li:after {
+  content: "\00A0\2022 "
+}
+
+.simplelist li:last-child:after {
+  content: ""
+}
+
+.yaw {
+  border: 1px solid #A3B1BF;
+  padding: 1em 1em .2em 1em;
+  border-top: none;
+  background-color: #fff;
+  color: #000
+}
+
+.user-wpnav {
+  border: 1px solid #A3B1BF;
+  margin-bottom: 1em;
+  padding: .5em .5em 0em .5em;
+  background-color: #F8FCFF;
+  color: #000;
+  text-align: center;
+  min-height: 2em
+}
+
+.list-with-leadtext {
+  margin: .6em 0
+}
+
+.list-with-leadtext p,.list-with-leadtext ul {
+  display: inline;
+  margin: 0
+}
+
+.oneline {
+  white-space: nowrap
+}
+
+.mediawiki .mbox-small {
+  clear: right;
+  float: right;
+  margin: 4px 0 4px 1em;
+  width: 238px;
+  font-size: 88%;
+  line-height: 1.25em
+}
+
+.mediawiki .mbox-small-left {
+  margin: 4px 1em 4px 0;
+  width: 238px;
+  border-collapse: collapse;
+  font-size: 88%;
+  line-height: 1.25em
+}
+
+#p-create .pBody {
+  text-align: center
+}
+
+#createPageInput {
+  width: 10.9em;
+  font-size: 95%
+}
+
+.templatequote {
+  margin-top: 0
+}
+
+.templatequote .templatequotecite {
+  line-height: 1em;
+  text-align: left;
+  padding-left: 2em;
+  margin-top: 0
+}
+
+.templatequote .templatequotecite cite {
+  font-size: 85%
+}
+
+.hlist dl,.hlist ol,.hlist ul {
+  margin: 0;
+  padding: 0
+}
+
+.hlist dd,.hlist dt,.hlist li {
+  margin: 0;
+  display: inline;
+  white-space: nowrap
+}
+
+.hlist.inline,.hlist.inline dl,.hlist.inline ol,.hlist.inline ul,.hlist dl dl,.hlist dl ol,.hlist dl ul,.hlist ol dl,.hlist ol ol,.hlist ol ul,.hlist ul dl,.hlist ul ol,.hlist ul ul {
+  display: inline
+}
+
+.hlist dt:after {
+  content: ":"
+}
+
+.hlist dd:after,.hlist li:after {
+  content: " ·";
+  font-weight: bold
+}
+
+.hlist-big dd:after,.hlist-big li:after {
+  content: " •";
+  font-weight: normal
+}
+
+.hlist dd:last-child:after,.hlist dt:last-child:after,.hlist li:last-child:after {
+  content: none
+}
+
+.hlist dd.hlist-last-child:after,.hlist dt.hlist-last-child:after,.hlist li.hlist-last-child:after {
+  content: none
+}
+
+.hlist dd dd:first-child:before,.hlist dd dt:first-child:before,.hlist dd li:first-child:before,.hlist dt dd:first-child:before,.hlist dt dt:first-child:before,.hlist dt li:first-child:before,.hlist li dd:first-child:before,.hlist li dt:first-child:before,.hlist li li:first-child:before {
+  content: " (";
+  font-weight: normal
+}
+
+.hlist dd dd:last-child:after,.hlist dd dt:last-child:after,.hlist dd li:last-child:after,.hlist dt dd:last-child:after,.hlist dt dt:last-child:after,.hlist dt li:last-child:after,.hlist li dd:last-child:after,.hlist li dt:last-child:after,.hlist li li:last-child:after {
+  content: ") ";
+  font-weight: normal
+}
+
+.hlist dd dd.hlist-last-child:after,.hlist dd dt.hlist-last-child:after,.hlist dd li.hlist-last-child:after,.hlist dt dd.hlist-last-child:after,.hlist dt dt.hlist-last-child:after,.hlist dt li.hlist-last-child:after,.hlist li dd.hlist-last-child:after,.hlist li dt.hlist-last-child:after,.hlist li li.hlist-last-child:after {
+  content: ") ";
+  font-weight: normal
+}
+
+.hlist ol {
+  counter-reset: listitem
+}
+
+.hlist ol > li {
+  counter-increment: listitem
+}
+
+.hlist ol > li:before {
+  content: " " counter(listitem) " ";
+  white-space: nowrap
+}
+
+.hlist dd ol > li:first-child:before,.hlist dt ol > li:first-child:before,.hlist li ol > li:first-child:before {
+  content: " (" counter(listitem) " "
+}
+
+.plainlist ol,.plainlist ul {
+  line-height: inherit;
+  list-style: none none;
+  margin: 0
+}
+
+.plainlist ol li,.plainlist ul li {
+  margin-bottom: 0
+}
+
+.navbox {
+  border: 1px solid #aaa;
+  width: 100%;
+  margin: auto;
+  clear: both;
+  font-size: 88%;
+  text-align: center;
+  padding: 1px
+}
+
+.navbox-inner,.navbox-subgroup {
+  width: 100%
+}
+
+.navbox-group,.navbox-title,.navbox-abovebelow {
+  padding: 0.25em 1em;
+  line-height: 1.5em;
+  text-align: center
+}
+
+th.navbox-group {
+  white-space: nowrap;
+  text-align: right
+}
+
+.navbox,.navbox-subgroup {
+  background: #fdfdfd
+}
+
+.navbox-list {
+  line-height: 1.8em;
+  border-color: #fdfdfd
+}
+
+.navbox-list ul {
+  line-height: 1.8em
+}
+
+.navbox th,.navbox-title {
+  background: #ccccff
+}
+
+.navbox-abovebelow,th.navbox-group,.navbox-subgroup .navbox-title {
+  background: #ddddff
+}
+
+.navbox-subgroup .navbox-group,.navbox-subgroup .navbox-abovebelow {
+  background: #e6e6ff
+}
+
+.navbox-even {
+  background: #f7f7f7
+}
+
+.navbox-odd {
+  background: transparent
+}
+
+table.navbox + table.navbox {
+  margin-top: -1px
+}
+
+.navbox .hlist td dl,.navbox .hlist td ol,.navbox .hlist td ul,.navbox td.hlist dl,.navbox td.hlist ol,.navbox td.hlist ul {
+  padding: 0.125em 0
+}
+
+ol + table.navbox,ul + table.navbox {
+  margin-top: 0.5em
+}
+
+.navbar {
+  display: inline;
+  font-size: 88%;
+  font-weight: normal
+}
+
+.navbar ul {
+  display: inline;
+  white-space: nowrap
+}
+
+.mw-body-content .navbar ul {
+  line-height: inherit
+}
+
+.navbar li {
+  word-spacing: -0.125em
+}
+
+.navbar.mini li span {
+  font-variant: small-caps
+}
+
+.infobox .navbar {
+  font-size: 100%
+}
+
+.navbox .navbar {
+  display: block;
+  font-size: 100%
+}
+
+.navbox-title .navbar {
+  float: left;
+  text-align: left;
+  margin-right: 0.5em;
+  width: 6em
+}
+
+.collapseButton {
+  float: right;
+  font-weight: normal;
+  margin-left: 0.5em;
+  text-align: right;
+  width: auto
+}
+
+.navbox .collapseButton {
+  width: 6em
+}
+
+.mw-parser-output .mw-collapsible-toggle {
+  font-weight: normal;
+  text-align: right
+}
+
+.navbox .mw-collapsible-toggle {
+  width: 6em
+}
+
+.oo-ui-fieldsetLayout-header.mw-collapsible-toggle {
+  float: left;
+  text-align: left
+}
+
+.infobox_v2 {
+  background: #f9f9f9;
+  color: #000;
+  float: right;
+  clear: right;
+  margin: 0 0 .5em 1em;
+  width: 300px;
+  border: 1px solid #aaa;
+  padding: 0.1em
+}
+
+.infobox_v2 th {
+  text-align: left
+}
+
+.pictoinfobox-map {
+  background: url(//upload.wikimedia.org/wikipedia/commons/7/7a/Picto_infobox_map.png) no-repeat top right;
+  height: 45px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bolder;
+  line-height: 1.2em;
+  color: #000
+}
+
+.details {
+  margin: 0 0 .7em 2em;
+  border: solid #E7E7E7;
+  border-width: 1px 0;
+  text-align: left;
+  font-size: 95%;
+  background: #FDFDFD url(//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Searchtool.svg/15px-Searchtool.svg.png) no-repeat left center;
+  padding: 1px 4px 1px 24px;
+  overflow: hidden
+}
+
+div.mw-geshi {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px dashed #2f6fab;
+  background-color: #f9f9f9
+}
+
+div.mw-geshi div,div.mw-geshi div pre,span.mw-geshi,pre.source-css,pre.source-javascript,pre.source-lua {
+  font-family: monospace,Courier !important
+}
+
+.printonly {
+  display: none
+}
+
+.toclimit-2 .toclevel-1 ul,.toclimit-3 .toclevel-2 ul,.toclimit-4 .toclevel-3 ul,.toclimit-5 .toclevel-4 ul,.toclimit-6 .toclevel-5 ul,.toclimit-7 .toclevel-6 ul {
+  display: none
+}
+
+.infobox_v2 .title {
+  height: 45px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bolder;
+  line-height: 1.2em;
+  color: #000
+}
+
+.transborder {
+  border: solid transparent
+}
+
+.title.defaut {
+}
+
+.title.alpinist {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Picto_infobox_climbing.svg/120px-Picto_infobox_climbing.svg.png) no-repeat top right
+}
+
+.title.animal {
+  background: url(//upload.wikimedia.org/wikipedia/commons/5/54/Picto_infobox_animal.png) no-repeat top right
+}
+
+.title.antenna {
+  background: url(//upload.wikimedia.org/wikipedia/commons/a/a2/Picto_infobox_antenna.png) no-repeat top right
+}
+
+.title.archaeology {
+  background: url(//upload.wikimedia.org/wikipedia/commons/8/80/Picto_infobox_archaeology.png) no-repeat top right
+}
+
+.title.archery {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/35/Picto_infobox_archery.png) no-repeat top right
+}
+
+.title.art {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Crystal_Clear_app_k_less_color.png/35px-Crystal_Clear_app_k_less_color.png) no-repeat top right
+}
+
+.title.artist {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/f3/Picto_infobox_artiste.png) no-repeat top right
+}
+
+.title.astronaut {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/0a/Picto_infobox_astronaut.png) no-repeat top right
+}
+
+.title.astronomy {
+  background: url(//upload.wikimedia.org/wikipedia/commons/7/71/Picto_infobox_astronomy.png) no-repeat top right
+}
+
+.title.athlet {
+  background: url(//upload.wikimedia.org/wikipedia/commons/5/5a/Athletics_infobox.png) no-repeat top right
+}
+
+.title.author {
+  background: url(//upload.wikimedia.org/wikipedia/commons/1/1e/Picto_infobox_auteur.png) no-repeat top right
+}
+
+.title.automobil {
+  background: url(//upload.wikimedia.org/wikipedia/commons/9/99/Picto_infobox_automobil.png) no-repeat top right
+}
+
+.title.avio {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/ff/Picto_infobox_aircraft.png) no-repeat top right
+}
+
+.title.bars {
+  background: url("//upload.wikimedia.org/wikipedia/commons/5/63/Weightlifting pictogram white.svg") no-repeat top right
+}
+
+.title.baseball {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Baseball_pictogram.svg/35px-Baseball_pictogram.svg.png) no-repeat top right
+}
+
+.title.basketbol {
+  background: url(//upload.wikimedia.org/wikipedia/commons/1/16/Picto_infobox_baschet.png) no-repeat top right
+}
+
+.title.beer {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/04/Picto_infobox_beer.png) no-repeat top right
+}
+
+.title.biathlon {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Biathlon_pictogram_white.svg/45px-Biathlon_pictogram_white.svg.png) no-repeat top right
+}
+
+.title.bio {
+  background: url(//upload.wikimedia.org/wikipedia/commons/4/48/Picto_infobox_character.png) no-repeat top right
+}
+
+.title.book {
+  background: url(//upload.wikimedia.org/wikipedia/commons/4/42/Picto_infobox_book.png) no-repeat top right
+}
+
+.title.box {
+  background: url(//upload.wikimedia.org/wikipedia/commons/a/a2/Picto_infobox_box.png) no-repeat top right
+}
+
+.title.bridge {
+  background: url(//upload.wikimedia.org/wikipedia/commons/8/87/Picto_infobox_bridge.png) no-repeat top right
+}
+
+.title.cardinal {
+  background: url(//upload.wikimedia.org/wikipedia/commons/b/b3/Picto_infobox_bishop.png) no-repeat top right
+}
+
+.title.castle {
+  background: url(//upload.wikimedia.org/wikipedia/commons/5/5c/Picto_infobox_chateau.png) no-repeat top right
+}
+
+.title.christianity {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Picto_infobox_christianity_1.svg/110px-Picto_infobox_christianity_1.svg.png) no-repeat top right
+}
+
+.title.cinema {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/ea/Picto_infobox_cinema.png) no-repeat top right
+}
+
+.title.computer {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/d1/Picto_infobox_pc.png) no-repeat top right
+}
+
+.title.cosmos {
+  background: url(//upload.wikimedia.org/wikipedia/commons/9/94/Picto_infobox_shuttle.png) no-repeat top right
+}
+
+.title.cross {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/e8/Picto_infobox_red_cross.png) no-repeat top right
+}
+
+.title.cycling {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Picto_infobox_cycling.svg/120px-Picto_infobox_cycling.svg.png) no-repeat top right
+}
+
+.title.data {
+  background: url(//upload.wikimedia.org/wikipedia/commons/4/4a/Almanacco.png) no-repeat top right
+}
+
+.title.default {
+  background: url(//upload.wikimedia.org/wikipedia/commons/2/24/Picto_infobox_default.png) no-repeat top right
+}
+
+.title.deportation {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/e0/Picto_Infobox_deportation.png) no-repeat top right
+}
+
+.title.detective {
+  background: url(//upload.wikimedia.org/wikipedia/commons/c/c1/Picto_infobox_detective.png) no-repeat top right
+}
+
+.title.diplomat {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/e0/Picto_infobox_ambassade.png) no-repeat top right
+}
+
+.title.egipt {
+  background: url(//upload.wikimedia.org/wikipedia/commons/c/cc/Picto_infobox_ancient_Egypt.png) no-repeat top right
+}
+
+.title.europe {
+  background: url(//upload.wikimedia.org/wikipedia/commons/c/c0/Picto_Infobox_Europe.png) no-repeat top right
+}
+
+.title.figura {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monument_istoric.svg/40px-Monument_istoric.svg.png) no-repeat top right
+}
+
+.title.filatelist {
+  background: url(//upload.wikimedia.org/wikipedia/commons/b/b3/Picto_infobox_Stamps.png) no-repeat top right
+}
+
+.title.filosof {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/dd/Picto_infobox_philosopher.png) no-repeat top right
+}
+
+.title.firma {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/ff/Picto_infobox_enterprise.png) no-repeat top right
+}
+
+.title.flag {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Entete_flag.png/45px-Entete_flag.png) no-repeat bottom right
+}
+
+.title.food {
+  background: url(//upload.wikimedia.org/wikipedia/commons/a/aa/Picto_infobox_mets.png) no-repeat top right
+}
+
+.title.football {
+  background: url(//upload.wikimedia.org/wikipedia/commons/8/87/Picto_infobox_fotbal_high.png) no-repeat center right;
+  background-size: auto 70px
+}
+
+.title.formula1 {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/da/Picto_infobox_race.png) no-repeat top right
+}
+
+.title.fungus {
+  background: url(//upload.wikimedia.org/wikipedia/commons/7/79/Picto_infobox_fungus.png) no-repeat top right
+}
+
+.title.game {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/07/Picto_infobox_game.png) no-repeat top right
+}
+
+.title.gymnastic {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gymnastics_%28artistic%29_pictogram.svg/35px-Gymnastics_%28artistic%29_pictogram.svg.png) no-repeat top right
+}
+
+.title.handbal {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/e3/Picto_infobox_handbal.png) no-repeat top right
+}
+
+.title.hockey {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Picto_Infobox_Ice_hockey.svg/120px-Picto_Infobox_Ice_hockey.svg.png) no-repeat top right
+}
+
+.title.islam {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Picto_infobox_muslimness.svg/114px-Picto_infobox_muslimness.svg.png) no-repeat top right
+}
+
+.title.jocey {
+  background: url(//upload.wikimedia.org/wikipedia/commons/6/67/Equestrian_pictogram_white.png) no-repeat top right
+}
+
+.title.judaism {
+  background: url(//upload.wikimedia.org/wikipedia/commons/a/a5/Picto_infobox_israel-judaisme.png) no-repeat top right
+}
+
+.title.king {
+  background: url("//upload.wikimedia.org/wikipedia/commons/5/5f/Picto_infobox_prétendant_à_un_trône.png") no-repeat top right
+}
+
+.title.map {
+  background: url(//upload.wikimedia.org/wikipedia/commons/7/7a/Picto_infobox_map.png) no-repeat top right
+}
+
+.title.medicine {
+  background: url(//upload.wikimedia.org/wikipedia/commons/2/23/Picto_infobox_med.png) no-repeat top right
+}
+
+.title.military {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/03/Picto_infobox_military.png) no-repeat top right
+}
+
+.title.mous {
+  background: url(//upload.wikimedia.org/wikipedia/commons/b/b8/Picto_infobox_informatique_souris.png) no-repeat top right
+}
+
+.title.museum {
+  background: url(//upload.wikimedia.org/wikipedia/commons/a/ac/Infobox_museum_pictogram.png) no-repeat top right
+}
+
+.title.music {
+  background: url(//upload.wikimedia.org/wikipedia/commons/6/60/Picto_infobox_music.png) no-repeat top right
+}
+
+.title.mythology {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Dragao05_inverted.svg/40px-Dragao05_inverted.svg.png) no-repeat top right
+}
+
+.title.newspaper {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/d6/Picto_infobox_newspaper.png) no-repeat top right
+}
+
+.title.olympic {
+  background: url(//upload.wikimedia.org/wikipedia/commons/8/8e/Picto_infobox_Olympic.png) no-repeat top right
+}
+
+.title.physic {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/d1/Picto_infobox_physics.png) no-repeat top right
+}
+
+.title.plant {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/0b/Picto_infobox_plant.png) no-repeat top right
+}
+
+.title.pres {
+  background: url(//upload.wikimedia.org/wikipedia/commons/2/23/Picto_infobox_journal.png) no-repeat top right
+}
+
+.title.project {
+  background: url(//upload.wikimedia.org/wikipedia/commons/c/cb/Picto_infobox_tools.png) no-repeat top right
+}
+
+.title.rapir {
+  background: url("//upload.wikimedia.org/wikipedia/commons/5/67/Fencing pictogram white.svg") no-repeat top right
+}
+
+.title.regata {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rowing_pictogram_white.svg/45px-Rowing_pictogram_white.svg.png) no-repeat top right
+}
+
+.title.road {
+  background: url(//upload.wikimedia.org/wikipedia/commons/b/b4/Picto_infobox_road.png) no-repeat top right
+}
+
+.title.romana {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/3c/Picto_infobox_Roman_military_banner.png) no-repeat top right
+}
+
+.title.rytmic {
+  background: url("//upload.wikimedia.org/wikipedia/commons/5/65/Gymnastics (rhythmic) pictogram white.svg") no-repeat top right
+}
+
+.title.sailing {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/f4/Infobox_Sailing_pictogram.png) no-repeat top right
+}
+
+.title.samourai {
+  background: url(//upload.wikimedia.org/wikipedia/commons/8/81/Picto_infobox_samourai.png) no-repeat top right
+}
+
+.title.scienc {
+  background: url(//upload.wikimedia.org/wikipedia/commons/5/57/Picto_Info_sciences_exactes.png) no-repeat top right
+}
+
+.title.scifi {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/ed/Picto_infobox_fliyingsaucer.png) no-repeat top right
+}
+
+.title.sex {
+  background: url(//upload.wikimedia.org/wikipedia/commons/8/82/Picto_infobox_manwoman.png) no-repeat top right
+}
+
+.title.ship {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/e0/Picto_infobox_ship.png) no-repeat top right
+}
+
+.title.shooting {
+  background: url("//upload.wikimedia.org/wikipedia/commons/5/61/Shooting pictogram white.svg") no-repeat top right
+}
+
+.title.skating {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/f5/Infobox_Inline_speed_skating_pictogram.png) no-repeat top right
+}
+
+.title.skiing {
+  background: url(//upload.wikimedia.org/wikipedia/commons/b/b1/Picto_infobox_alpine_skiing.png) no-repeat top right
+}
+
+.title.skijump {
+  background: url(//upload.wikimedia.org/wikipedia/commons/c/ce/Infobox_Ski_jumping_pictogram.png) no-repeat top right
+}
+
+.title.snooker {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Picto_infobox_cue.svg/124px-Picto_infobox_cue.svg.png) no-repeat top right
+}
+
+.title.snowboard {
+  background: url(//upload.wikimedia.org/wikipedia/commons/5/59/Infobox_Snowboarding_pictogram.png) no-repeat top right
+}
+
+.title.software {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/fe/Picto_infobox_software.png) no-repeat top right
+}
+
+.title.surf {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/31/Infobox_Surfing_pictogram.png) no-repeat top right
+}
+
+.title.swimming {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/0f/Swimming_pictogram_white.svg) no-repeat top right;
+  background-size: auto 45px
+}
+
+.title.teatr {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/37/Picto_infobox_masks.png) no-repeat top right
+}
+
+.title.technology {
+  background: url(//upload.wikimedia.org/wikipedia/commons/f/f9/Infobox_gear.png) no-repeat top right
+}
+
+.title.tenis {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/dc/Picto_infobox_tenis.png) no-repeat top right
+}
+
+.title.tren {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/3f/Infobox_train.png) no-repeat top right
+}
+
+.title.tv {
+  background: url(//upload.wikimedia.org/wikipedia/commons/a/a6/Picto_infobox_TV-T%26PC.png) no-repeat top right
+}
+
+.title.unesco {
+  background: url(//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Unesco_Cultural_Heritage_logo.svg/35px-Unesco_Cultural_Heritage_logo.svg.png) no-repeat top right
+}
+
+.title.universitet {
+  background: url(//upload.wikimedia.org/wikipedia/commons/6/66/Picto_infobox_universit%C3%A9.png) no-repeat top right
+}
+
+.title.vine {
+  background: url(//upload.wikimedia.org/wikipedia/commons/6/66/Picto_info_grape.png) no-repeat top right
+}
+
+.title.virus {
+  background: url(//upload.wikimedia.org/wikipedia/commons/d/dc/Picto_infobox_virus.png) no-repeat top right
+}
+
+.title.volleyball {
+  background: url(//upload.wikimedia.org/wikipedia/commons/c/ca/Volleyball_%28indoor%29_pictogram.svg) no-repeat top right;
+  background-size: auto 45px
+}
+
+.title.waterpol {
+  background: url(//upload.wikimedia.org/wikipedia/commons/9/99/Picto_infobox_water_polo.png) no-repeat top right
+}
+
+.title.world {
+  background: url(//upload.wikimedia.org/wikipedia/commons/3/3a/Picto_infobox_UN.png) no-repeat top right
+}
+
+.title.wrestling {
+  background: url(//upload.wikimedia.org/wikipedia/commons/0/04/Picto_infobox_wrestling.png) no-repeat top right
+}
+
+.title.zavod {
+  background: url(//upload.wikimedia.org/wikipedia/commons/5/67/Factory_white.png) no-repeat top right
+}
+
+.title.eurovision {
+  background: url(//upload.wikimedia.org/wikipedia/commons/e/ed/Wiki_Eurovision_Heart_%28Infobox%29.svg) no-repeat top right;
+  background-size: auto 45px
+}
+
+.img_toggle,.img_toggle * {
+  margin: 0 auto !important;
+  padding: 0 !important
+}
+
+.img_toggle .a_toggle {
+  display: block;
+  text-align: center !important;
+  font-size: 0.95em
+}
+
+.img_toggle .location-map {
+  position: relative
+}
+
+.img_toggle .location-map +.location-map {
+  border-top: 5px solid #aaa
+}
+
+.img_toggle .geopoint {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  font-size: 1px;
+  border: 1px solid #000;
+  background: #F00
+}
+
+.img_toggle ul {
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style-position: outside !important;
+  padding: 0 !important;
+  margin: 0 0 0 5px !important
+}
+
+.img_toggle ul li {
+  float: left;
+  border: 1px solid #aaa;
+  border-top-width: 0;
+  margin: 0 2px 0 0 !important;
+  position: relative;
+  background: #F9F9F9
+}
+
+.img_toggle ul li a {
+  padding: 0 5px !important;
+  font-size: 85%;
+  text-decoration: none;
+  color: black
+}
+
+.fancy-btn {
+  background-color: #3366bb;
+  background-image: linear-gradient(to bottom,#3670c8,#3366bb);
+  border: 1px solid #3366bb;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  padding: 0.7em;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  font-size: 1.4em;
+  min-width: 200px;
+  margin: 4px
+}
+
+.fancy-btn:hover {
+  opacity: 0.9
+}
+
+.mw-tag-CategoryMaster,.mw-changeslist-CategoryMaster {
+  opacity: 0.5
+}
+
+#bandeau-portal {
+  border: solid #aaa 1px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 1em
+}
+
+#bandeau-portal,#list-portal {
+  padding: 4px;
+  margin-left: 0;
+  clear: both
+}
+
+#list-portal li,#bandeau-portal li {
+  display: inline
+}
+
+.bandeau-portal-element {
+  white-space: nowrap;
+  margin: auto 1.5em
+}
+
+.bandeau-portal-icon {
+  margin-right: 0.5em
+}
+
+.bandeau-portal-text {
+  font-weight: bold
+}
+
+.globegris {
+  background-image: url(//upload.wikimedia.org/wikipedia/commons/1/10/Wikipedia-logo-v2-200px-transparent.png)
+}
+
+.degrade {
+  background-image: url(//upload.wikimedia.org/wikipedia/commons/f/fb/Gradient_43px.png);
+  background-position: top;
+  background-repeat: repeat-x
+}
+
+.degrade_rev {
+  background-image: url(//upload.wikimedia.org/wikipedia/commons/6/61/Gradient_reversed_43px.png);
+  background-position: top;
+  background-repeat: repeat-x
+}
+
+.degrade_double {
+  background-image: url(//upload.wikimedia.org/wikipedia/commons/b/ba/Double_Gradient_60px_V.png);
+  background-position: top;
+  background-repeat: repeat
+}
+
+.mainpage-column-left {
+  float: left;
+  width: 54%
+}
+
+.mainpage-column-right {
+  float: right;
+  width: 44%
+}
+
+@media only screen and (max-width: 800px) {
+  .mainpage-column-left,.mainpage-column-right {
+      float:inherit;
+      width: inherit
+  }
+}
+
+#proveit [data-tooltip]:before {
+  box-shadow: none;
+  transform: none !important;
+  transition: none;
+  width: auto;
+  height: auto;
+  background: transparent;
+  bottom: 20px
+}
+
+#proveit [data-tooltip]:after {
+  transition: none;
+  border: none
+}
+
+#proveit [data-tooltip]:not([data-position]):after {
+  bottom: 20px
+}
+
+#proveit [data-tooltip]:hover:before {
+  transform: none
+}
+
+#proveit [data-tooltip]:hover:after {
+  transform: none !important;
+  white-space: normal
+}
+
+.ve-ui-mwMediaDialog-panel-search > div > div > div > div > div:nth-of-type(2) {
+  display: none !important
+}
+
+.mw-rcfilters-ui-watchlistTopSectionWidget-watchlistDetails {
+  display: block !important
+}
+
+.mw-rcfilters-ui-watchlistTopSectionWidget-editWatchlistButton {
+  display: block !important;
+  position: relative;
+  top: -5em;
+  height: 0
+}
+
+/*???????????????????????????????*/
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.article-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fcfcfc;
+  text-align: left;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.article-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.article-description {
+  font-size: 0.9em;
+  color: #555;
+}
